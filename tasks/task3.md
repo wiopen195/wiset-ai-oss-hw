@@ -22,6 +22,17 @@ index.html 파일을 열고 게임을 직접 실행해 봅시다.
 
 (여기에 버그를 유발한 커밋의 id와 어떻게 하면 버그를 수정할 수 있는지 적어주세요.)
 
+버그를 유발한 커밋 id: 25ede836903881848fea811df5b687b59d962da3
+(제목: a couple missing ends with the ipad version)
+
+game.js 파일 중 line 411에서 
+        this.delayBeforeBullet = 10;
+
+를 실수로 삭제했는데 이걸 다시 복원해야 연속해서 총알이 나오지 않고 드문드문 총알이 나옴.
+
+수정방법:
+game.js 파일에 this.delayBeforeBullet = 10; 코드를 원래 있던 위치에 삽입.
+
 ### 힌트
 
 과제 2를 통해 커밋도 체크아웃 할 수 있다는 것을 배웠습니다. 이전 커밋을 체크하웃하면 타임머신을 타고 과거로 돌아갈 수 있습니다!
