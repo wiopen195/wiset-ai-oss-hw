@@ -15,9 +15,9 @@
 
 ## 과제 제출자
 
-👤 **이 보 라**
+👤 **조 희 련**
 
-* Github: [@Violet-Bora-Lee](https://github.com/Violet-Bora-Lee)
+* Github: [@wiopen195](https://github.com/wiopen195)
 
 ## Show your support
 
